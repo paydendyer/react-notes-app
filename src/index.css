@@ -18,6 +18,14 @@ code {
   justify-content: space-between;
 }
 
+.dark-mode {
+  background-color: black;
+}
+
+.dark-mode h1 {
+  color: white;
+}
+
 .container {
   max-width: 960px;
   margin-right: auto;
