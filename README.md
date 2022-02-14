@@ -2,6 +2,7 @@
 By: Payden Dyer
 
 Web App that can add and delete notes
+
 https://paydendyer.github.io/react-notes-app
 ## Technology Used:
 1. React.js
