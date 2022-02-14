@@ -24,6 +24,15 @@ code {
   grid-gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
+.note.new {
+  background-color: #67d7cc;
+}
+
+textarea {
+  border: none;
+  resize: none;
+  background-color: #67d7cc;
+}
 .note{
   background-color: #fef68a;
   border-radius: 10px;

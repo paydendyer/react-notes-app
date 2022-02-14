@@ -1,8 +1,27 @@
 import React from 'react';
+import { nanoid } from 'nanoid';
+import { useState } from 'react';
 import NotesList from './components/NotesList';
 const App = () => {
+  const [notes, setNotes] = useState([
+  {
+    id: nanoid(),
+    text: "This is my first note!",
+    date: "02/14/2022"
+  },
+  {
+    id: nanoid(),
+    text: "This is my second note!",
+    date: "02/10/2022"
+  },
+  {
+    id: nanoid(),
+    text: "This is my third note!",
+    date: "02/12/2022"
+  },
+]);
   return ( <div className="container">
-  <NotesList />
+  <NotesList notes={notes}/>
   </div>
   );
 };
