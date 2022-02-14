@@ -60,8 +60,13 @@ textarea:focus {
   justify-content: space-between;
   white-space: pre-wrap;
 }
+
 .note-footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.delete-icon {
+  cursor: pointer;
 }
