@@ -12,6 +12,12 @@ code {
     monospace;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .container {
   max-width: 960px;
   margin-right: auto;
@@ -78,4 +84,12 @@ textarea:focus {
   border-radius: 10px;
   padding: 5px;
   margin-bottom: 1.5em;
+}
+.search input {
+  border: none;
+  background-color: rgb(233, 233, 233);
+}
+
+.search input:focus {
+  outline: none;
 }
